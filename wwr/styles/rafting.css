@@ -1,4 +1,5 @@
 :root {
+    --nav-color: lightblue;
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
@@ -23,6 +24,36 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: var(--nav-color);
+    margin: 5px auto;
+}
+
+header nav {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    list-style: none;
+}
+
+header nav li {
+    padding: 5px 20px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+header li a {
+    text-decoration: none;
 }
 
 h1,
@@ -81,4 +112,68 @@ h1 {
     float: right;
     width: 125px;
     margin: 8px 0 0 20px;
+}
+
+#history {
+    display: grid;
+    align-items: center;
+}
+
+#history h2 {
+    text-align: center;
+    grid-column: 2;
+}
+
+#history img {
+    grid-row: 2;
+    width: 300px;
+    height: auto;
+}
+
+#history p {
+    grid-row: 2;
+}
+
+#adventure {
+    display: grid;
+    align-items: center;
+}
+
+#adventure h2 {
+    grid-row: 1;
+    grid-column: 3 / span 2;
+}
+
+#adventure figure {
+    grid-row: 2;
+    align-items: center;
+}
+
+figure img {
+    width: 150px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+footer img {
+    width: auto;
+    height: 50px;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+}
+
+footer nav {
+    margin: 0;
+    padding: 0;
+    grid-column: 2;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
 }
