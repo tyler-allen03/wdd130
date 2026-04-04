@@ -133,6 +133,10 @@ h1 {
     grid-template-columns: 420px 420px;
 }
 
+iframe {
+    border: none;
+}
+
 .formbox {
     grid-column: 2;
 }
