@@ -84,7 +84,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -115,13 +115,13 @@ h1 {
 }
 
 #company-info p,
-h3 {
+h1 {
     margin: 0 auto;
     padding: 3px;
     text-align: center;
 }
 
-#company-info h3 {
+#company-info h1 {
     color: var(--primary-color);
 }
 
