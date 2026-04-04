@@ -116,6 +116,7 @@ article {
 
 #company-info p,
 h1 {
+    /* why this no work */
     margin: 0 auto;
     padding: 3px;
     text-align: center;
