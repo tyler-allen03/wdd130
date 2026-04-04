@@ -261,3 +261,7 @@ footer nav {
 .figbox figure {
     margin: 0 auto;
 }
+
+.profilebox h2 {
+    text-align: center;
+}
