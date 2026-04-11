@@ -101,6 +101,10 @@ article {
     bottom: -1px;
 }
 
+.hero article h2 {
+    color: var(--secondary-color);
+}
+
 .hero article p {
     background-color: var(--accent2-color);
     background-size: 20px;
